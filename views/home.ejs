@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="/app.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+
+
+
+<div class="flex-container">
+  <div class="container">
+    <h1>JOIN US</h1>
+    <p class="lead">輸入Email來加入我們，我們總共有<strong><%= count %> </strong>個用戶</p>
+    <form action="/register" method="POST">
+      <input type="text" name="person[email]" class="form" placeholder="輸入Email">
+      <button>JOIN</button>
+    </form> 
+  </div>
+</div>
